@@ -1,0 +1,105 @@
+INFO  - 2012-05-25 22:54:01 --> Base path set to: E:/SitePhp/Project//redwine/
+INFO  - 2012-05-25 22:54:01 --> Base dir set to: /redwine/
+INFO  - 2012-05-25 22:54:01 --> System path set to: E:/SitePhp/Project//redwine/system/
+INFO  - 2012-05-25 22:54:01 --> Application path set to: E:/SitePhp/Project//redwine/system/application/
+INFO  - 2012-05-25 22:54:01 --> Modules path set to: E:/SitePhp/Project//redwine/modules/
+INFO  - 2012-05-25 22:54:01 --> Logs path set to: E:/SitePhp/Project//redwine/system/logs/
+INFO  - 2012-05-25 22:54:01 --> Cache path set to: E:/SitePhp/Project//redwine/system/cache/
+INFO  - 2012-05-25 22:54:01 --> New feature '文件系统检查' created
+INFO  - 2012-05-25 22:54:01 --> New feature '安装文件系统' created
+INFO  - 2012-05-25 22:54:01 --> New feature '设置数据库' created
+INFO  - 2012-05-25 22:54:01 --> Feature '安装文件系统' now has prerequisite '文件系统检查'
+INFO  - 2012-05-25 22:54:01 --> Feature '设置数据库' now has prerequisite '安装文件系统'
+INFO  - 2012-05-25 22:54:01 --> Component '日志文件夹可写' attached to feature '文件系统检查'
+INFO  - 2012-05-25 22:54:01 --> Component '资产文件夹可写' attached to feature '文件系统检查'
+INFO  - 2012-05-25 22:54:01 --> Component '缓存文件夹可写' attached to feature '文件系统检查'
+INFO  - 2012-05-25 22:54:01 --> Component '写配置文件' attached to feature '文件系统检查'
+INFO  - 2012-05-25 22:54:01 --> Component '创建新的系统配置文件' attached to feature '安装文件系统'
+INFO  - 2012-05-25 22:54:01 --> Component '创建新的数据库配置文件' attached to feature '安装文件系统'
+INFO  - 2012-05-25 22:54:01 --> Component '创建新的reCAPTCHA的配置文件' attached to feature '安装文件系统'
+INFO  - 2012-05-25 22:54:01 --> Component '连接到数据库' attached to feature '设置数据库'
+INFO  - 2012-05-25 22:54:01 --> Component '更新表结构' attached to feature '设置数据库'
+INFO  - 2012-05-25 22:54:01 --> Component '创建管理员用户帐户' attached to feature '设置数据库'
+INFO  - 2012-05-25 22:54:01 --> 日志文件夹可写 Component installed
+INFO  - 2012-05-25 22:54:01 --> 资产文件夹可写 Component installed
+INFO  - 2012-05-25 22:54:01 --> 缓存文件夹可写 Component installed
+INFO  - 2012-05-25 22:54:01 --> 写配置文件 Component installed
+INFO  - 2012-05-25 22:54:01 --> 文件系统检查 Feature installed
+INFO  - 2012-05-25 22:54:01 --> 创建新的系统配置文件 Component installed
+INFO  - 2012-05-25 22:54:01 --> 创建新的数据库配置文件 Component installed
+INFO  - 2012-05-25 22:54:01 --> 创建新的reCAPTCHA的配置文件 Component installed
+INFO  - 2012-05-25 22:54:01 --> 安装文件系统 Feature installed
+INFO  - 2012-05-25 22:54:01 --> 连接到数据库 Component installed
+INFO  - 2012-05-25 22:54:06 --> 更新表结构 Component installed
+INFO  - 2012-05-25 22:54:06 --> 创建管理员用户帐户 Component installed
+INFO  - 2012-05-25 22:54:06 --> 设置数据库 Feature installed
+INFO  - 2023-12-14 12:53:37 --> Base path set to: /Users/Jian/Workspace/project/training/
+INFO  - 2023-12-14 12:53:37 --> Base dir set to: /training/
+INFO  - 2023-12-14 12:53:37 --> System path set to: /Users/Jian/Workspace/project/training/system/
+INFO  - 2023-12-14 12:53:37 --> Application path set to: /Users/Jian/Workspace/project/training/system/application/
+INFO  - 2023-12-14 12:53:37 --> Modules path set to: /Users/Jian/Workspace/project/training/modules/
+INFO  - 2023-12-14 12:53:37 --> Logs path set to: /Users/Jian/Workspace/project/training/system/logs/
+INFO  - 2023-12-14 12:53:37 --> Cache path set to: /Users/Jian/Workspace/project/training/system/cache/
+INFO  - 2023-12-14 12:53:37 --> New feature '文件系统检查' created
+INFO  - 2023-12-14 12:53:37 --> New feature '安装文件系统' created
+INFO  - 2023-12-14 12:53:37 --> New feature '设置数据库' created
+INFO  - 2023-12-14 12:53:37 --> Feature '安装文件系统' now has prerequisite '文件系统检查'
+INFO  - 2023-12-14 12:53:37 --> Feature '设置数据库' now has prerequisite '安装文件系统'
+INFO  - 2023-12-14 12:53:37 --> Component '日志文件夹可写' attached to feature '文件系统检查'
+INFO  - 2023-12-14 12:53:37 --> Component '资产文件夹可写' attached to feature '文件系统检查'
+INFO  - 2023-12-14 12:53:37 --> Component '缓存文件夹可写' attached to feature '文件系统检查'
+INFO  - 2023-12-14 12:53:37 --> Component '写配置文件' attached to feature '文件系统检查'
+INFO  - 2023-12-14 12:53:37 --> Component '创建新的系统配置文件' attached to feature '安装文件系统'
+INFO  - 2023-12-14 12:53:37 --> Component '创建新的数据库配置文件' attached to feature '安装文件系统'
+INFO  - 2023-12-14 12:53:37 --> Component '创建新的reCAPTCHA的配置文件' attached to feature '安装文件系统'
+INFO  - 2023-12-14 12:53:37 --> Component '连接到数据库' attached to feature '设置数据库'
+INFO  - 2023-12-14 12:53:37 --> Component '更新表结构' attached to feature '设置数据库'
+INFO  - 2023-12-14 12:53:37 --> Component '创建管理员用户帐户' attached to feature '设置数据库'
+INFO  - 2023-12-14 12:53:37 --> 日志文件夹可写 Component installed
+INFO  - 2023-12-14 12:53:37 --> 资产文件夹可写 Component installed
+INFO  - 2023-12-14 12:53:37 --> 缓存文件夹可写 Component installed
+INFO  - 2023-12-14 12:53:37 --> 写配置文件 Component installed
+INFO  - 2023-12-14 12:53:37 --> 文件系统检查 Feature installed
+INFO  - 2023-12-14 12:53:37 --> 创建新的系统配置文件 Component installed
+INFO  - 2023-12-14 12:53:37 --> 创建新的数据库配置文件 Component installed
+INFO  - 2023-12-14 12:53:37 --> 创建新的reCAPTCHA的配置文件 Component installed
+INFO  - 2023-12-14 12:53:37 --> 安装文件系统 Feature installed
+INFO  - 2023-12-14 12:53:37 --> 连接到数据库 Component installed
+INFO  - 2023-12-14 12:53:38 --> 更新表结构 Component installed
+INFO  - 2023-12-14 12:53:38 --> 创建管理员用户帐户 Component installed
+INFO  - 2023-12-14 12:53:38 --> 设置数据库 Feature installed
+INFO  - 2023-12-15 01:16:32 --> Base path set to: /Users/Jian/Workspace/project/training/
+INFO  - 2023-12-15 01:16:32 --> Base dir set to: /training/
+INFO  - 2023-12-15 01:16:32 --> System path set to: /Users/Jian/Workspace/project/training/system/
+INFO  - 2023-12-15 01:16:32 --> Application path set to: /Users/Jian/Workspace/project/training/system/application/
+INFO  - 2023-12-15 01:16:32 --> Modules path set to: /Users/Jian/Workspace/project/training/modules/
+INFO  - 2023-12-15 01:16:32 --> Logs path set to: /Users/Jian/Workspace/project/training/system/logs/
+INFO  - 2023-12-15 01:16:32 --> Cache path set to: /Users/Jian/Workspace/project/training/system/cache/
+INFO  - 2023-12-15 01:16:32 --> New feature '文件系统检查' created
+INFO  - 2023-12-15 01:16:32 --> New feature '安装文件系统' created
+INFO  - 2023-12-15 01:16:32 --> New feature '设置数据库' created
+INFO  - 2023-12-15 01:16:32 --> Feature '安装文件系统' now has prerequisite '文件系统检查'
+INFO  - 2023-12-15 01:16:32 --> Feature '设置数据库' now has prerequisite '安装文件系统'
+INFO  - 2023-12-15 01:16:32 --> Component '日志文件夹可写' attached to feature '文件系统检查'
+INFO  - 2023-12-15 01:16:32 --> Component '资产文件夹可写' attached to feature '文件系统检查'
+INFO  - 2023-12-15 01:16:32 --> Component '缓存文件夹可写' attached to feature '文件系统检查'
+INFO  - 2023-12-15 01:16:32 --> Component '写配置文件' attached to feature '文件系统检查'
+INFO  - 2023-12-15 01:16:32 --> Component '创建新的系统配置文件' attached to feature '安装文件系统'
+INFO  - 2023-12-15 01:16:32 --> Component '创建新的数据库配置文件' attached to feature '安装文件系统'
+INFO  - 2023-12-15 01:16:32 --> Component '创建新的reCAPTCHA的配置文件' attached to feature '安装文件系统'
+INFO  - 2023-12-15 01:16:32 --> Component '连接到数据库' attached to feature '设置数据库'
+INFO  - 2023-12-15 01:16:32 --> Component '更新表结构' attached to feature '设置数据库'
+INFO  - 2023-12-15 01:16:32 --> Component '创建管理员用户帐户' attached to feature '设置数据库'
+INFO  - 2023-12-15 01:16:32 --> 日志文件夹可写 Component installed
+INFO  - 2023-12-15 01:16:32 --> 资产文件夹可写 Component installed
+INFO  - 2023-12-15 01:16:32 --> 缓存文件夹可写 Component installed
+INFO  - 2023-12-15 01:16:32 --> 写配置文件 Component installed
+INFO  - 2023-12-15 01:16:32 --> 文件系统检查 Feature installed
+INFO  - 2023-12-15 01:16:32 --> 创建新的系统配置文件 Component installed
+INFO  - 2023-12-15 01:16:32 --> 创建新的数据库配置文件 Component installed
+INFO  - 2023-12-15 01:16:32 --> 创建新的reCAPTCHA的配置文件 Component installed
+INFO  - 2023-12-15 01:16:32 --> 安装文件系统 Feature installed
+INFO  - 2023-12-15 01:16:32 --> 连接到数据库 Component installed
+INFO  - 2023-12-15 01:16:32 --> 更新表结构 Component installed
+INFO  - 2023-12-15 01:16:32 --> 创建管理员用户帐户 Component installed
+INFO  - 2023-12-15 01:16:32 --> 设置数据库 Feature installed

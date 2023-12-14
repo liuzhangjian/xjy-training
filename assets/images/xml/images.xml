@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root imageWidth='600' imageHeight='300'>
+<menu url="/" frame="_blank" imageUrl="b1.jpg"/>
+<menu url="/" frame="_blank" imageUrl="b2.jpg"/>
+<menu url="/" frame="_blank" imageUrl="b3.jpg"/>
+<menu url="/" frame="_blank" imageUrl="b4.jpg"/>
+<menu url="/" frame="_blank" imageUrl="b5.jpg"/>
+<menu url="/" frame="_blank" imageUrl="b6.jpg"/>
+<menu url="/" frame="_blank" imageUrl="b7.jpg"/>
+<menu url="/" frame="_blank" imageUrl="b7.jpg"/>
+</root>

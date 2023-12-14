@@ -1,0 +1,322 @@
+/* --------------------------------------------------------------
+
+   typography.css
+   * Sets up some sensible default typography.
+
+   Based on work by:
+   * Nathan Borror     [playgroundblues.com]
+   * Jeff Croft        [jeffcroft.com]
+   * Christian Metts   [mintchaos.com]
+   * Wilson Miner      [wilsonminer.com]
+   * Richard Rutter    [clagnut.com]
+
+   Read more about using a baseline here:
+   * alistapart.com/articles/settingtypeontheweb
+
+-------------------------------------------------------------- */
+
+/* This is where you set your desired font size. The line-heights
+   and vertical margins are automatically calculated from this.
+   The percentage is of 16px (0.75 * 16px = 12px). */
+
+body { font-size: 75%; }
+
+
+/* Default fonts and colors.
+   If you prefer serif fonts, remove the font-family
+   on the headings, and apply this one to the body:
+   font: 1em Georgia, "lucida bright", "times new roman", serif; */
+
+body {
+  color: #222;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+  color: #111;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+
+/* Headings
+-------------------------------------------------------------- */
+
+h1,h2,h3,h4,h5,h6 { font-weight: normal; }
+
+h1 { font-size: 3em; line-height: 1; margin-bottom: 0.5em; }
+h2 { font-size: 2em; margin-bottom: 0.75em; }
+h3 { font-size: 1.5em; line-height: 1; margin-bottom: 1em; }
+h4 { font-size: 1.2em; line-height: 1.25; margin-bottom: 1.25em; }
+h5 { font-size: 1em; font-weight: bold; margin-bottom: 1.5em; }
+h6 { font-size: 1em; font-weight: bold; }
+
+
+/* Text elements
+-------------------------------------------------------------- */
+
+p           { margin: 0 0 1.5em; }
+p.last      { margin-bottom: 0; }
+p img       { float: left; margin: 1.5em 1.5em 1.5em 0; padding: 0; }
+p img.top   { margin-top: 0; } /* Use this if the image is at the top of the <p>. */
+
+ul, ol      { margin:0 1.5em 1.5em 1.5em; }
+ul          { list-style-type: circle; }
+ol          { list-style-type: decimal; }
+dl          { margin: 0 0 1.5em 0; }
+dl dt       { font-weight: bold; }
+dd          { margin-left: 1.5em;}
+
+abbr,
+acronym     { border-bottom: 1px dotted #666; }
+address     { margin-top: 1.5em; font-style: italic; }
+del         { color:#666; }
+
+a:focus,
+a:hover     { color: #000; text-decoration:underline; }
+a           { color: #009; text-decoration: none; }
+
+blockquote  { margin: 1.5em; color: #666; font-style: italic; }
+strong      { font-weight: bold; }
+em,dfn      { background: #F4F4F4;padding:1px 3px;font-size:12px;color:#ee0000;font-style:normal;margin-left:3px; }
+dfn         { font-weight: bold; }
+pre,code    { margin: 1.5em 0; white-space: pre; }
+pre,code,tt { font: 1em 'andale mono', 'monotype.com', 'lucida console', monospace; line-height: 1.5; }
+tt          { display: block; margin: 1.5em 0; line-height: 1.5; }
+
+
+/* Tables
+-------------------------------------------------------------- */
+
+/*th      { border-bottom: 2px solid #ccc; font-weight: bold; } */
+
+tfoot   { font-style: italic; }
+caption { background: #ffc; }
+
+/* Use this if you use span-x classes on th/td. */
+table .last { padding-right: 0; }
+
+/* Aligns an element perfect in the middle of a cell */
+table .middle { text-align: center; vertical-align: middle; } 
+
+
+/* Some default classes
+-------------------------------------------------------------- */
+
+.small      { font-size: .8em; margin-bottom: 1.875em; line-height: 1.875em; }
+.large      { font-size: 1.2em; line-height: 2.5em; margin-bottom: 1.25em; }
+.quiet      { color: #666; }
+
+.hide       { display: none; }
+.highlight  { background:#ff0; }
+.added      { color:#060; }
+.removed    { color:#900; }
+.clear{clear:both;}
+
+.top        { margin-top:0; padding-top:0; }
+.bottom     { margin-bottom:0; padding-bottom:0; }
+
+.table_coll{border-collapse:collapse; margin:5px auto;border:1px #eee dotted;}
+.table_coll td{padding:6px 6px; vertical-align:middle;}
+.td_right{text-align:right;width:150px;font-weight:bold;color:#777}
+.td_left{text-align:left;}
+.td_bg_title{width:120px;text-align:right;font-weight:bold; color:#444;background-color:#EFEFF8;}
+.center{margin:0 auto;width:233px;}
+.red{
+	color:#ff0000;
+}
+.gray{
+	color:#888;
+}
+.vertical_title{
+	width:20px;
+	background:#E3E9EE;
+	vertical-align:middle;
+	text-align:center;
+}
+.icon_back{
+	color:#000099;
+}
+.icon_back:hover{
+	cursor:pointer;
+	text-decoration:underline;
+}
+.width100{width:100%}
+.width50{width:50%}
+.width80{width:80%}
+.area{width:99%;height:70px;}
+
+.table_trace{border-collapse:collapse; border:1px #eee solid;}
+.table_trace td{border:1px #eee solid; padding:3px; vertical-align:middle;}
+.text_right{text-align:right;}
+.text_left{text-align:left;}
+.text_center{text-align:center;}
+.trace_right{text-align:right;padding-right:25px;}
+.trace_left{text-align:left; padding-left:25px;}
+.trace_center{text-align:center; padding:3px 0px 3px 0px}
+.trace_box{
+	border:1px #ccc dotted;
+}
+.thead td{font-weight:bold; text-align:left;}
+.pointer{
+	cursor:pointer;
+}
+.inputTab th{
+	font-weight:normal;
+	white-space:nowrap;
+	vertical-align:bottom;
+	border-right:1px #ddd solid;
+	background:#EEF2FB;
+	border-bottom:1px #ddd solid;
+	border-top:1px #ddd solid;
+	margin-bottom:20px;
+	padding:2px 4px;
+}
+.inputTab td{
+	padding:1px 3px;
+}
+.inputTab input{
+	width:100%;
+	border:1px #dddddd solid;
+}
+.alternativeEl,.selectedEl{
+	width:150px;
+	height:240px;
+}
+.blueGray{
+	background:#EFF8FD;
+}
+.top_dotted_order{
+	border-top:1px #3C6282 dotted;
+	margin-top:12px;
+}
+
+/* jump*/
+.jump_box{width:auto;margin:50px auto 0px auto;text-align:center;}
+.jump_content{margin:6px 0px; color:#555;}
+.jump_title{height:27px;font-size:20px; font-weight:bold; line-height:27px; }
+
+.td_left_width{
+	width:240px;
+}
+
+#message{
+	font-size:12px;
+	font-weight:normal;
+}
+
+.tab_dotted{
+	text-align:center;
+	border-collapse:collapse;
+	width:100%;
+	cellpadding:0;
+}
+.tab_dotted th{
+	border:1px solid #dedede;
+	background:#EEF2FB;
+	color:#444444;
+}
+.tab_dotted td{
+	border:1px dotted #dddddd;
+	white-space:nowrap;
+}
+
+/**/
+.tab_coll,
+.tab_blue,
+.tab_gray,
+.tab_blue_gray{
+	border-collapse:collapse;
+	width:100%;
+	cellpadding:0;
+}
+.tab_coll th,
+.tab_coll td,
+.tab_blue th,
+.tab_blue td,
+.tab_gray th,
+.tab_gray td,
+.tab_blue_gray th,
+.tab_blue_gray td{
+    border:1px solid #eee;
+    padding:5px 5px;
+}
+.tab_coll td,
+.tab_blue td,
+.tab_gray td,
+.tab_blue_gray td{
+	text-align:left;
+    background:#ffffff;
+}
+.tab_coll th{
+	width:90px;
+	text-align:right;
+	background:#fefefe;
+	color:#777777;
+	white-space:nowrap;
+}
+.tab_blue th{
+	width:150px;
+	text-align:right;
+	background:#EFF8FD;
+	color:#777777;
+}
+.tab_gray th{
+	width:90px;
+	text-align:right;
+	background:#fefefe;
+	color:#777777;
+	white-space:nowrap;
+}
+.tab_blue_gray th{
+	width:15%;
+	text-align:right;
+	background:#EEF2FB;
+	color:#777777;
+}
+/**/
+.tab_contract{
+	border-collapse:collapse;
+	height:100%;
+	width:100%;
+	cellpadding:0;
+}
+.tab_contract th,.tab_contract td{
+    border:1px dotted #dddddd;
+    padding:5px 5px;
+}
+.tab_contract td{
+	text-align:left;
+    background:#ffffff;
+}
+.tab_contract th{
+	width:100px;
+	white-space:nowrap;
+	text-align:right;
+	background:#F2F2F2;
+	color:#777777;
+}
+
+.vertical_box{border:1px #dedede solid;width:100%;}
+.vertical_box th{width:20px;text-align:center; font-weight:normal;}
+.vertical_box td{vertical-align:middle;height:100%;}
+.bg_gray_light{background:#DEDEDE;}
+.bg_gray_deep{background:#CCCCCC;}
+.bg_blue_light{background:#E3E9EE;}
+.bg_blue_deep{background:#BCD4EC;}
+.bg_blue_more{background:#7DC6EF;}
+.title{
+	font-weight:bold;
+	text-align:center;
+	border:1px #dedede solid;
+	padding:3px 0;
+	background:url(../images/title_bg.gif);
+	color:#555;
+}
+
+.display{
+	border-collapse:collapse;
+	width:100%;
+	cellpadding:0;
+}
+.width300{
+	width:300px;
+}
